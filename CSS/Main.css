@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #000;
+    --btn-main-col: #0000FF;
+    --title-col: rgb(221, 84, 159);
+    --btn-hover-col: #008000;
+    --main-font: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    --qoute-font: "Playfair Display", serif;
+    ;
+
+
+}
+
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url('../imgs/bg.jpg');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+.header-font {
+    font-family: var(--main-font);
+    color: #8c77e1;
+    font-size: 5rem;
+
+}
+
+.qoute-font {
+    font-family: var(--qoute-font);
+
+
+}
+
+.container button {
+    transition: all .3s ease-in;
+    color: black;
+}
+
+.container button:hover {
+    background-color: var(--btn-hover-col);
+    border: none;
+    color: white;
+}
+
+span {
+    transition: all .3s ease-in;
+    color: #b00202;
+}
+
+button:hover span {
+    color: #ffffff;
+}

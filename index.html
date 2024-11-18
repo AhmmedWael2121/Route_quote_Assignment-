@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./imgs/quotes.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="./CSS/bootstrap.css">
+        <link rel="stylesheet" href="./CSS/all.min.css">
+        <link rel="stylesheet" href="./CSS/Main.css">
+
+
+        <title>Qoute</title>
+    </head>
+    <header class="vh-100 d-flex align-items-center justify-content-center text-white">
+        <div class="container text-center">
+            <h1 class="header-font my-5">Quote of the Day</h1>
+            <div class="row g-3 shadow-thin p-4 my-5 rounded-pill">
+                <h2 class="fw-light">Press the button below to receive a random quote!</h2>
+                <button onclick="generateQuote();"
+                    class="btn btn-info mx-auto qoute-font shadow rounded-pill my-3 w-25 opacity-75 fw-bold fs-3">
+                    New Quote <span class="">❤</span>
+                </button>
+                <p id="quote" class="fs-4 fw-bold qoute-font my-3">"Your quote will appear here!"</p>
+                <p id="author" class="fs-5 fst-italic qoute-font">--Author</p>
+            </div>
+        </div>
+    </header>
+
+    <body>
+
+        <script src="./JS/bootstrap.js"></script>
+        <script src="./JS/all.min.js"></script>
+        <script src="./JS/main.js"></script>
+    </body>
+
+</html>
